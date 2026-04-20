@@ -1,0 +1,28 @@
+ OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# backend / ASP.NET
+backend/**/bin/
+backend/**/obj/
+backend/**/*.user
+backend/**/*.suo
+backend/**/*.rsuser
+
+# frontend / React / Vue
+frontend/**/node_modules/
+frontend/**/dist/
+frontend/**/build/
+frontend/**/.vite/
+frontend/**/.nuxt/
+frontend/**/.output/
+
+# logs
+*.log
